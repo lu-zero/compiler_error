@@ -6,6 +6,7 @@ readme = "README.md"
 keywords = ["macro", "reporting", "error"]
 license = "MIT"
 repository = "https://github.com/lu-zero/compiler_error"
+description = "Triggerable compiler error"
 
 [lib]
 name = "compiler_error"
