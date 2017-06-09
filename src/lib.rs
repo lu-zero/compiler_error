@@ -23,7 +23,7 @@ fn compiler_error<'a>(cx: &'a mut ExtCtxt, sp: Span, args: &[TokenTree]) -> Box<
         return DummyResult::any(sp);
     }
 
-    let text = tt_to_string(&args[0]);
+    let text = tt_to_string(args[0].clone());
     cx.span_err(sp, &format!("{}", text));
     return DummyResult::any(sp);
 }
