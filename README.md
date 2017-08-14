@@ -9,7 +9,6 @@ directive in the C preprocessor.
 
 It is quite useful to provide helpful error message in macros with non-trival syntaxes.
 
-## Todo
+## Note
 
-- [ ] support printing optionally multiple tokens
-- [ ] provide useful examples
+From [Rust 1.20](https://github.com/rust-lang/rust/issues/40872) an identical macro is available directly in the standard library, please use this only for backwards compatibility.
